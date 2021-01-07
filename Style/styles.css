@@ -1,0 +1,136 @@
+@font-face {
+    font-family: 'sole_survivorregular';
+    src: url('../Fonts/solesurvivor-webfont.woff2') format('woff2'),
+         url('../Fonts/solesurvivor-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;}
+
+@font-face {
+    font-family: 'cantarellregular';
+    src: url('../Fonts/cantarell-regular-webfont.woff2') format('woff2'),
+         url('../Fonts/cantarell-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #F8F8FF;
+	font-size: 16px;
+	color: #000000;
+	font-family: trebuchet ms, sans-serif;
+}
+#header-nav {
+	background-color: #F8F8FF;
+	border-radius: 0;
+	border: 0;
+}
+.navbar-brand h1 a {
+	color: #32CD32;
+	font-family:'sole_survivorregular', arial, sans-serif;
+	font-size: 200%;
+	margin-left: 130px ;
+}
+.logoColor {
+	color: #0000FF;
+	margin-top: 0;
+}
+.navbar-brand a:hover {
+	text-decoration: none;
+}
+#collapsable-nav {
+	margin-top: 180px;
+	font-family:'Courier New', arial, sans-serif;
+}
+#nav-list {
+	margin-right: 100px;
+}
+#nav-list li {
+	padding: 0 20px;
+}
+button.navbar-toggle.collapsed, .icon-bar {
+	border: 1px solid #000000;
+	text-align: middle;
+}
+button.navbar-toggle {
+  	margin-top: 125px;
+}
+#nav-list a {
+	color: #000000;
+	text-align: center;
+}
+h2 {
+    font-family:'Courier New', arial, sans-serif;
+    font-weight: bold;
+    font-size: 90%;
+    padding: 4px 0 0 0;
+    color: #000000;
+    margin: 0 130px;
+}
+h3 {
+    font-family: 'cantarellregular', arial, sans-serif;
+    font-size: 140%;
+    color: #2DB8CD;
+    padding: 10px 20px;
+    margin: 40px 130px;
+}
+
+section {
+	font-family:'cantarellregular', arial, sans-serif;
+	font-size: 90%;
+	/*color: #47433F;*/
+	color: #5D5D5D;
+	text-align: justify;
+	background-color: #F8F8FF;
+	margin: 0px 130px;
+	padding: 5px 0px 0px 20px;
+}
+#main-content-title {
+	margin: 5px 0 40px;
+}
+#topbutton {
+	color: #000000;
+}
+
+@media (min-width: 992px) {
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+  h3, section, .navbar-brand h1 a, h2 {
+ 	margin-left: 20px;
+  }
+  #nav-list {
+	margin-right: 80px;
+  }
+}
+@media (max-width: 767px){
+  #header-nav {
+	border: 1px solid #000000;
+  }
+  .navbar-collapse {
+  	vertical-align: middle;
+  }
+  h3, section, .navbar-brand h1 a, h2 {
+ 	margin-left: 0;
+  }
+  .navbar-header {
+	margin-bottom: 0px;
+	height: 180px;
+  }
+  #collapsable-nav {
+  	font-family: 'cantarellregular', arial, sans-serif;
+  	margin-top: 0px;
+  	padding-left: 70px;
+  	border-top: 1px solid #000000;
+  }
+  section {
+  	margin: 0;
+  	padding-right: 20px;
+  }
+  h3 {
+  	margin: 20px 0;
+  }
+}
