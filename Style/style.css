@@ -14,7 +14,6 @@ html
          url('../Fonts/cantarell-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
 }
 
 *
@@ -116,7 +115,7 @@ ol li
   position: relative;
   height: 134px;}
 
-/* définition police du logo */
+/* d≈Ωfinition police du logo */
 #logo h1
 { font-family:'sole_survivorregular', arial, sans-serif;}
 
@@ -129,24 +128,24 @@ ol li
   margin: 0;
   color: #FFF;}
 
-/* définition de la phrase sous le logo principal */
+/* d≈Ωfinition de la phrase sous le logo principal */
 #logo h2
 { font-size: 120%;
   padding: 4px 0 0 0;
   color: #000000;}
 
-/* définition du logo de gauche */
+/* d≈Ωfinition du logo de gauche */
 #logo h1, #logo h1 a, #logo h1 a:hover 
 { padding: 22px 0 0 0;
   color: #32CD32;
   text-decoration: none;}
 
-/* définition du logo de droite */
+/* d≈Ωfinition du logo de droite */
 #logo h1 a .logo_colour
 { color: #0000FF;
   padding: 5px;}
 
-/* définition couleur lorqu'on passe avec le curseur sur logo de droite */
+/* d≈Ωfinition couleur lorqu'on passe avec le curseur sur logo de droite */
 #logo a:hover .logo_colour
 { color: #FF4500;
   width: 50px;}
@@ -166,8 +165,8 @@ ul#menu li
   list-style: none;
   margin: 5px 2px 0 0;}
 
-ul#menu li a /* définit les menus de sélection des autres pages du site*/
-{ font: normal 100% 'Courier New', sans-serif;
+ul#menu li a /* d√©finit les menus de s√©lection des autres pages du site*/
+{ font: normal 110% 'Courier New', sans-serif;
   display: block; 
   float: left; 
   height: 20px;
@@ -192,14 +191,14 @@ ul#menu li a:hover
   padding: 50px 20px 20px 5px;
   font-family:'cantarellregular', arial, sans-serif;
   background: #F8F8FF url(back.png) repeat-y;
-  border: 15px solid #F8F8FF;} /* définit la bordure du cadre principal */
+  border: 15px solid #F8F8FF;} /* d√©finit la bordure du cadre principal */
 
 .sidebar
 { float: right;
   width: 190px;
   padding: 0 0px 20px 15px;
   margin-right: -20px;
-  position: absolute; /* permet de place cet élément tout à droite */
+  position: absolute; /* permet de place cet √©l√©ment tout √† droite */
   right: 60px;}
 
 .sidebar ul
