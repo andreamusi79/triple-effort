@@ -2,72 +2,79 @@
 <html>
 
 <head>
-  <title>triple effort - course</title>
-  <meta name="description" content="website description" />
-  <meta name="keywords" content="website keywords, website keywords" />
+  <title>Accueil</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
-  <link rel="stylesheet" type="text/css" href="Style/style.css" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="Style/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="Style/styles.css" />
 </head>
 
 <body>
-  <div id="main">
-    <div id="header">
-      <div id="logo">
-        <div id="logo_text">
-          <!-- class="logo_colour", allows you to change the colour of the text -->
-          <h1><a href="index.html">TRIPLE<span class="logo_colour"> EFFORT</span></a></h1>
-          <h2>la pratique du triathlon</h2>
+  <header>
+    <nav id="header-nav" class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a class="pull-left visible-md visible-lg"><h1><a href="index.html">TRIPLE<span class="logoColor"> EFFORT</span></a></h1></a>
+            <h2 class="pull-left">la pratique du triathlon</h2>
+            <a id="top"></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>          
+            <span class="icon-bar"></span>
+          </button>
+      </div>
+      <div id="collapsable-nav" class="collapse navbar-collapse">
+        <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
+          <li>
+            <a href="index.html"><span>Accueil</span></a>
+          </li>
+          <li>
+            <a href="natation.html"><span>Natation</span></a>
+          </li>
+          <li>
+            <a href="velo.html"><span>Vélo</span></a>
+          </li>
+          <li>
+            <a href="course.html"><span>Course</span></a>
+          </li>
+      </div>
+    </nav>
+  </header>
+  
+  <div id="main-content" class="container col-xs-12 col-md-10 col-lg-9">    
+    <div class="row"> 
+      <div class="menu-text">
+        <div><h3 id="menu-title" class="">Comment bien débuter en triathlon</h3>       
+          <section>
+            <p>Il y a encore quelques années le <a href="https://fr.wikipedia.org/wiki/Triathlon">triathlon</a> était vu comme un sport extrême dont la pratique était réservée à une poignée de super-hommes ou femmes fanatiques des sports d'<strong>endurance</strong>.</p>
+            <p>De nos jours la pratique du triathlon s'est beaucoup démocratisée et jouit même d'une certaine forme d'engouement.</p>
+            <p>A juste titre car le triathlon est un sport complet qui développera votre musculatures de façon harmonieuse, vous fera perdre du poids et vous aidera à forger un mental d'acier.</p>
+            <p>Le but de ce site est de dispenser des conseils pratiques en termes d'entraînement, équipement, nutrition, etc., à tous ceux qui souhaitent débuter en triathlon...bon tri à tous!!!</p>
+          </section>
         </div>
       </div>
-      <div id="menubar">
-        <ul id="menu">
-          <!-- put class="selected" in the li tag for the selected page - to highlight which page you're on -->
-          <li><a href="index.html">Accueil</a></li>
-          <li><a href="natation.html">Natation</a></li>
-          <li><a href="velo.html">Vélo</a></li>
-          <li class="selected"><a href="course.html">Course</a></li>
-          <li><a href="contact.html">Contact</a></li>
-        </ul>
-      </div>
-    </div>
-      <div id="site_content">
-      <div class="sidebar">
-        <h1>A venir</h1>
-        <h4>IRONAM 70.3 Sables d'Olonne</h4>
-        <h5>4 juillet 2021</h5>
-        <p>Épreuve de natation dans le mythique chenal du Vendée Globe, parcours vélo dans la forêt d'Olonne et semi-marathon le long du Remblai.<br /><a href="https://www.ironman.com/im703-les-sables-dolonne">Plus d'infos</a></p>
-        <h1>Liens Utiles</h1>
-        <ul>
-          <li><a href="#">link 1</a></li>
-          <li><a href="#">link 2</a></li>
-          <li><a href="#">link 3</a></li>
-          <li><a href="#">link 4</a></li>
-        </ul>
-        <h1>Recherche</h1>
-        <form method="post" action="#" id="search_form">
-          <p>
-            <input class="search" type="text" name="search_field" value="Enter keywords....." />
-            <input name="search" type="image" style="border: 0; margin: 0 0 -9px 5px;" src="style/search.png" alt="Search" title="Search" />
-          </p>
-        </form>
-      </div>
-      <div id="content">
-        <h1>Comment bien débuter en triathlon</h1
-        <p>Il y a encore quelques années le <a href="https://fr.wikipedia.org/wiki/Triathlon">triathlon</a> était vu comme un sport extrême dont la pratique était réservée à une poignée de super-hommes ou femmes fanatiques des sports d'<strong>endurance</strong>.</p>
-        <p>De nos jours la pratique du triathlon s'est beaucoup démocratisée et jouit même d'une certaine forme d'engouement.</p>
-        <p>A juste titre car le triathlon est un sport complet qui développera votre musculatures de façon harmonieuse, vous fera perdre du poids et vous aidera à forger un mental d'acier.</p>
-        <p>Le but de ce site est de dispenser des conseils pratiques à tous ceux qui souhaitent débuter en triathlon que ce soit en termes d'entraînement, équipement, nutrition, etc...bon tri à tous!!!</p>
-        <h2>Mon histoire...</h2
-        <p>J'ai découvert la course à pied un peu par hasard vers 28 ans et ça a été le déclic.</p> 
-        <p>J'ai commencé à m'entraîner de plus en plus régulièrement et bien que je n'avais pas un passé de grand sportif j'ai vite commencé à enchaîner les semi-marathons pour enfin venir me frotter au marathon et à l'ultra.</p>
-        <p>Suite à une blessure du genou j'ai commencé la natation afin de continuer à faire du sport et assouvir mon addiction.</p>
-        <p>La pratique du vélo et le début des premiers triathlons sprint sont venus après mais se sont vite imposés comme une vraie passion.</p>
-        <p>A 40 ans j'ai complété mon premier IRONMAN 70.3 donc...si je l'ai fait c'est à la portée de tous!!!</p>
-      </div>
-    </div>
-    <div id="footer">
-      <p><a href="index.html">Accueil</a> | <a href="natation.html">natation</a> | <a href="velo.html">velo</a> | <a href="course.html">course</a> | <a href="contact.html">Contact</a></p>
+
+        <div class="menu-text">
+          <div><h3 id="menu-title" class=""> Mon histoire...</h3>
+            <section>
+              <p>J'ai découvert la course à pied un peu par hasard vers 28 ans et ça a été le déclic.</p> 
+              <p>J'ai commencé à m'entraîner de plus en plus régulièrement et bien que je n'avais pas un passé de grand sportif j'ai vite commencé à enchaîner les semi-marathons pour enfin venir me frotter au marathon et à l'ultra.</p>
+              <p>Suite à une blessure du genou j'ai commencé la natation afin de continuer à faire du sport et assouvir ainsi ce qu'était devenu mon addiction.</p>
+              <p>La pratique du vélo et le début des premiers triathlons sprint sont venus après mais se sont vite imposés comme une vraie passion.</p>
+              <p>A 40 ans j'ai complété mon premier IRONMAN 70.3 donc...si je l'ai fait c'est à la portée de tous!!!</p>
+            </section>
+          </div>
+        </div>
     </div>
   </div>
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-1.11.3.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
 </body>
 </html>
