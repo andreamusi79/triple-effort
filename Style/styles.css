@@ -42,7 +42,7 @@ body {
 	text-decoration: none;
 }
 #collapsable-nav {
-	margin-top: 180px;
+	margin: 180px 60px 0 0;
 	font-family:'Courier New', arial, sans-serif;
 }
 #nav-list {
@@ -94,6 +94,10 @@ section {
 #topbutton {
 	color: #000000;
 }
+div.embed-responsive {
+    width:100%;
+    margin: 50px 0 0 150px;
+}
 
 @media (min-width: 992px) {
 
@@ -104,6 +108,13 @@ section {
   }
   #nav-list {
 	margin-right: 80px;
+  }
+  #collapsable-nav {
+	margin: 180px 0 0 0;
+  }
+  div.embed-responsive {
+    width:100%;
+    margin: 50px 0 0 0px;
   }
 }
 @media (max-width: 767px){
@@ -132,5 +143,9 @@ section {
   }
   h3 {
   	margin: 20px 0;
+  }
+    div.embed-responsive {
+    width:100%;
+    margin: 50px 0 0 0px;
   }
 }
