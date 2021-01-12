@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Style/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Style/styles.css" />
+  <link rel="stylesheet" type="text/css" href="Style/styles.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             <span class="pull-left visible-xs visible-sm visible-md visible-lg"><h1><a href="index.html">TRIPLE<span class="logoColor"> EFFORT</span></a></h1>
             <h2 class="pull-left">la pratique du triathlon</h2>
             </span>
-          </div>
+          </div> <!-- end of navbar-brand -->
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,29 +27,33 @@
             <span class="icon-bar"></span>          
             <span class="icon-bar"></span>
           </button>
-      </div>
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-        <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
-          <li>
-            <a href="index.html"><span>Accueil</span></a>
-          </li>
-          <li>
-            <a href="natation.html"><span>Natation</span></a>
-          </li>
-          <li>
-            <a href="velo.html"><span>Vélo</span></a>
-          </li>
-          <li>
-            <a href="course.html"><span>Course</span></a>
-          </li>
-      </div>
+        </div> <!-- end of navbar-header -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
+            <li>
+              <a href="index.html"><span>Accueil</span></a>
+            </li>
+            <li class="active">
+              <a href="natation.html"><span>Natation</span></a>
+            </li>
+            <li>
+              <a href="velo.html"><span>Vélo</span></a>
+            </li>
+            <li>
+              <a href="course.html"><span>Course</span></a>
+            </li>
+          </ul>
+        </div> <!-- end of collapsable-nav -->
+      </div> <!-- end of container-fluid -->
     </nav>
   </header>
   
-  <div id="main-content" class="container col-xs-12 col-md-10 col-lg-9">    
-    <div class="row"> 
-      <div class="menu-text">
-        <div><h3 id="menu-title" class="">La natation</h3>       
+  <div id="main-content" class="container">    
+    <div>
+      <h3 id="menu-title" class="">La natation</h3>   
+    </div>
+      <div class="row"> 
+        <div class="menu-text col-xs-12 col-md-12 col-lg-12">    
           <section>
             <p>La natation en triathlon est synonyme de crawl. Le crawl est la nage la plus rapide, à condition de bien en maîtriser les secrets. En effet la natation est la plus technique des trois épreuves du triathlon mais aussi celle avec les écarts de temps les plus faibles entre les deux extrêmes du classement.</p>
             <p>Il y a aussi de très gros avantages à la pratique de la natation. En effet, il s'agit d'un sport très complet qui sculptera le haut de votre corps. Contrairement aux deux autres disciplines, et plus particulièrement la course à pied, la natation n'est pas du tout traumatisante pour votre corps et sera un bon moyen de récupération active après de grosses séances.</p> 
@@ -58,32 +62,41 @@
             <p>Comment arrive-t-on à nager efficacement sans se fatiguer et à ressentir une vraie sensation de glisse? Tout simplement en étant le plus horizontal et le plus aligné possible lorsqu'on nage...c'est là tout le défi!</p>
           </section>
         </div>
+      </div> <!-- end of row -->
+
+      <div>
+        <h3 id="menu-title" class="">L'entraînement de natation</h3>
       </div>
 
-        <div class="menu-text">
-          <div><h3 id="menu-title" class="">L'entraînement de natation</h3>
-            <section>
+      <div class="row"> 
+        <div class="menu-text menu-text col-xs-12 col-md-12 col-lg-12">
+          <section>
               <p>La natation est une discipline dure à maîtriser qui va vous demander de longues heures d'entraînement et une bonne dose de persévérance, surtout pour ceux qui débutent.</p> 
               <p>C'est peut-être la seule discipline pour laquelle je recommande vivement de suivre des cours afin de progresser vite et de ne pas se décourager.</p>
               <p>Afin de vous améliorer et pour développer vos aptitudes dans le milieu aquatique je vous recommande au moins trois séances hebdomadaires. Il sera vraiment important de soigner au maximum sa technique afin de se fatiguer le moins possible en nageant, la vitesse viendra après. En effet, il sera important lors d'une compétition de ne pas sortir trop fatigué de cette première épreuve. Pour cela, je vous conseille vraiment d'inclure un gros bloc d'éducatifs lors de votre session, de préférence au début après un bon échauffement. Vous trouverez sur ce site <a href="https://www.natationpourtous.com/technique/liste-educatifs.php" target="_blank">une bonne sélection d'éducatifs</a>. Parmi ces exercices, insistez beaucoup sur le rattrappé. Cet exercice, va réellement vous faire réaliser ce que ça veut dire prendre ses appuis sur l'eau. Au début vous pouvez le réaliser avec un pull buoy comme dans la vidéo ci-dessous. Par la suite vous pourrez retirer le pull buoy et vous stabiliser avec le seul battement des jambes.</p>
-              </section>
-            </div>
-          </div> 
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/usOg_4vj8HQ"></iframe>
-          </div>
-          <div class="menu-text">
-            <section>
+          </section>
+        </div>
+      </div> <!-- end of row -->
+
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/usOg_4vj8HQ"></iframe>
+      </div>
+
+      <div class="row"> 
+        <div class="menu-text menu-text col-xs-12 col-md-12 col-lg-12">
+          <section>
               <p>Une fois que vous serez à l'aise en crawl et que vous commencerez à ressentir cette sensation de glisse sur l'eau, je vous conseille de commencer à travailler votre endurance ainsi que votre vitesse. Pour cela, le couple pull buoy et plaquettes sera votre grand compagnon. Le travail avec plaquettes développera votre force ainsi que l'entrée des mains dans l'eau. Le pull-buoy vous aidera à vous focaliser uniquement sur le mouvement des bras.</p>
               <p>Enfin, si vous êtes à court d'idées, vous pouvez toujours utiliser <a href="https://www.natationpourtous.com/entrainement/generateur/generateur.php" target="_blank">générateur d'entraînement.</a></p>
             </section>
           </div>
+      </div> <!-- end of row -->
+
         <!-- Youtube video -->
-        <div class="embed-responsive embed-responsive-16by9">
-          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LijdyVaaDnY"></iframe>
-        </div>
-    </div>
-  </div>
+      <div class="embed-responsive embed-responsive-16by9">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/LijdyVaaDnY"></iframe>
+      </div>
+  </div> <!-- end of container -->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>

@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Style/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Style/styles.css" />
+  <link rel="stylesheet" type="text/css" href="Style/styles.css">
 </head>
 
 <body>
@@ -19,7 +19,7 @@
             <span class="pull-left visible-xs visible-sm visible-md visible-lg"><h1><a href="index.html">TRIPLE<span class="logoColor"> EFFORT</span></a></h1>
             <h2 class="pull-left">la pratique du triathlon</h2>
             </span>
-          </div>
+          </div> <!-- end of navbar-brand -->
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,46 +27,51 @@
             <span class="icon-bar"></span>          
             <span class="icon-bar"></span>
           </button>
-      </div>
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-        <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
-          <li>
-            <a href="index.html"><span>Accueil</span></a>
-          </li>
-          <li>
-            <a href="natation.html"><span>Natation</span></a>
-          </li>
-          <li>
-            <a href="velo.html"><span>Vélo</span></a>
-          </li>
-          <li>
-            <a href="course.html"><span>Course</span></a>
-          </li>
-      </div>
+        </div> <!-- end of navbar-header -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
+            <li>
+              <a href="index.html"><span>Accueil</span></a>
+            </li>
+            <li>
+              <a href="natation.html"><span>Natation</span></a>
+            </li>
+            <li>
+              <a href="velo.html"><span>Vélo</span></a>
+            </li>
+            <li class="active">
+              <a href="course.html"><span>Course</span></a>
+            </li>
+          </ul>
+        </div> <!-- end of collapsable-nav -->
+      </div> <!-- end of container-fluid -->
     </nav>
   </header>
   
-  <div id="main-content" class="container col-xs-12 col-md-10 col-lg-9">    
-    <div class="row"> 
-      <div class="menu-text">
-        <div><h3 id="menu-title" class="">La course à pied</h3>       
+  <div id="main-content" class="container">    
+    <div>
+      <h3 id="menu-title" class="">La course à pied</h3>   
+    </div>
+      <div class="row"> 
+        <div class="menu-text col-xs-12 col-md-12 col-lg-12">    
           <section>
             <p>La course à pied est l'épreuve finale et donc c'est au cours de cette épreuve que tout se jouera.</p>
             <p>Du point de vue de l'équipement, la course à pied est la discipline la moins onéreuse. En effet, une paire de bonnes chaussures constitue le seul vrai investissement à réaliser pour vous entraîner et disputer des courses.</p>
           </section>
         </div>
-      </div>
+      </div> <!-- end of row -->
 
       <!-- Youtube video -->        
       <div class="embed-responsive embed-responsive-16by9">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/U9Y9Z3kOGFs"></iframe>
       </div>
 
-    </div>
-  </div>
+  </div> <!-- end of container -->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
   <script src="js/script.js"></script>
 </body>
 </html>
+
