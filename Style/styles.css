@@ -61,7 +61,7 @@ button.navbar-toggle.collapsed, .icon-bar {
 	text-align: middle;
 }
 button.navbar-toggle {
-  	margin-top: 125px;
+  	margin-top: 120px;
 }
 #nav-list a {
 	color: #000000;
@@ -106,8 +106,10 @@ div.embed-responsive {
 img {
 	width: 100%;
 }
-@media (min-width: 992px) {
-
+@media (min-width: 992px) and (max-width: 1199px) {
+   .navbar-brand h1 a, h2 {
+ 	margin-left: 20px;
+}
 }
 @media (min-width: 768px) and (max-width: 991px){
   h3, section, .navbar-brand h1 a, h2 {
@@ -140,8 +142,8 @@ img {
   }
   #collapsable-nav {
   	font-family: 'cantarellregular', arial, sans-serif;
-  	margin-top: 0px;
-  	padding-left: 70px;
+  	margin: 0px;
+  	padding-left: 140px;
   	border-top: 1px solid #000000;
   }
   h3 {
