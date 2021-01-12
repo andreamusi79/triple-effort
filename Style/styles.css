@@ -45,6 +45,11 @@ body {
 	margin: 180px 60px 0 0;
 	font-family:'Courier New', arial, sans-serif;
 }
+.navbar-default .navbar-nav > .active > a {
+	background-color: #F8F8FF;
+	font-weight: bold;
+	/*text-decoration: underline;*/
+}
 #nav-list {
 	margin-right: 100px;
 }
@@ -74,8 +79,8 @@ h3 {
     font-family: 'cantarellregular', arial, sans-serif;
     font-size: 140%;
     color: #2DB8CD;
-    padding: 10px 20px;
-    margin: 40px 130px;
+    padding: 10px 0px;
+    margin: 40px 0px;
 }
 
 section {
@@ -85,8 +90,8 @@ section {
 	color: #5D5D5D;
 	text-align: justify;
 	background-color: #F8F8FF;
-	margin: 0px 130px;
-	padding: 5px 0px 0px 20px;
+	margin: 0;
+	padding: 5px 0px 0px 0px;
 }
 #main-content-title {
 	margin: 5px 0 40px;
@@ -96,9 +101,11 @@ section {
 }
 div.embed-responsive {
     width:100%;
-    margin: 50px 0 50px 150px;
+    margin: 50px 0 50px 0px;
 }
-
+img {
+	width: 100%;
+}
 @media (min-width: 992px) {
 
 }
@@ -137,14 +144,10 @@ div.embed-responsive {
   	padding-left: 70px;
   	border-top: 1px solid #000000;
   }
-  section {
-  	margin: 0;
-  	padding-right: 20px;
-  }
   h3 {
   	margin: 20px 0;
   }
-    div.embed-responsive {
+  div.embed-responsive {
     width:100%;
     margin: 50px 0 50px 0px;
   }

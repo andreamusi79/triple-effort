@@ -2,12 +2,16 @@
 <html>
 
 <head>
+<!DOCTYPE HTML>
+<html>
+
+<head>
   <title>Vélo - Triple Effort</title>
   <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="Style/bootstrap.min.css">
-  <link rel="stylesheet" type="text/css" href="Style/styles.css" />
+  <link rel="stylesheet" type="text/css" href="Style/styles.css">
 </head>
 
 <body>
@@ -19,7 +23,7 @@
             <span class="pull-left visible-xs visible-sm visible-md visible-lg"><h1><a href="index.html">TRIPLE<span class="logoColor"> EFFORT</span></a></h1>
             <h2 class="pull-left">la pratique du triathlon</h2>
             </span>
-          </div>
+          </div> <!-- end of navbar-brand -->
 
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
@@ -27,47 +31,55 @@
             <span class="icon-bar"></span>          
             <span class="icon-bar"></span>
           </button>
-      </div>
-      <div id="collapsable-nav" class="collapse navbar-collapse">
-        <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
-          <li>
-            <a href="index.html"><span>Accueil</span></a>
-          </li>
-          <li>
-            <a href="natation.html"><span>Natation</span></a>
-          </li>
-          <li>
-            <a href="velo.html"><span>Vélo</span></a>
-          </li>
-          <li>
-            <a href="course.html"><span>Course</span></a>
-          </li>
-      </div>
+        </div> <!-- end of navbar-header -->
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+          <ul id="nav-list" class="nav navbar-nav navbar-right invisible-sm">
+            <li>
+              <a href="index.html"><span>Accueil</span></a>
+            </li>
+            <li>
+              <a href="natation.html"><span>Natation</span></a>
+            </li>
+            <li class="active">
+              <a href="velo.html"><span>Vélo</span></a>
+            </li>
+            <li>
+              <a href="course.html"><span>Course</span></a>
+            </li>
+          </ul>
+        </div> <!-- end of collapsable-nav -->
+      </div> <!-- end of container-fluid -->
     </nav>
   </header>
   
-  <div id="main-content" class="container col-xs-12 col-md-10 col-lg-9">    
-    <div class="row"> 
-      <div class="menu-text">
-        <div><h3 id="menu-title" class="">Le vélo</h3>       
+  <div id="main-content" class="container">    
+    <div>
+      <h3 id="menu-title" class="">Le vélo</h3>   
+    </div>
+      <div class="row"> 
+        <div class="menu-text col-xs-12 col-md-12 col-lg-12">    
           <section>
             <p>Bien évidemment les 3 disciplines sont importantes lors d'une épreuve de triathlon. Toutefois, l'épreuve de vélo revêt d'une importance particulière de par le fait qu'elle permet de creuser les écarts les plus importants</p>
             <p>C'est aussi l'épreuve pour laquelle l'équipement en possession  du triathlète aura le plus d'impact. Et oui, lorsqu'il s'agit de vélos on n'est pas tous sur un pied d'égalité! Un vélo et une paire de roues au profil aérodynamique vous donneront un sérieux avantage.</p>
             <p>Le but de cette épreuve est, bien entendu, d'être le plus rapide possible sans pour autant "se cramer" pour la course qui vient après. Vous apprendrez donc comment doser l'effort afin d'optimiser votre effort. Allons découvrir tout ça!</p>
           </section>
         </div>
+      </div> <!-- end of row -->
+
+      <div>
+        <h3 id="menu-title" class="">Quel vélo choisir</h3>
       </div>
 
-        <div class="menu-text">
-          <div><h3 id="menu-title" class=""> Quel vélo choisir</h3>
-            <section>
+      <div class="row"> 
+        <div class="menu-text col-xs-12 col-md-12 col-lg-12">
+          <section>
               <p>Le choix du bon vélo et des roues qui vont avec peut vite se révéler un casse-tête. Vélo de course normal, vélo de course au profil aéro ou vélo de triathlon? Un de chaque peut-être ?</p>
               <p>La réponse à cette question dépend beaucoup de vos objectifs, votre niveau d'entraînement et bien-sûr...votre portefeuille!</p>
-            </section>
-          </div>
+          </section>
         </div>
-    </div>
-  </div>
+      </div> <!-- end of row -->
+  </div> <!-- end of container -->
+
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
   <script src="js/jquery-1.11.3.min.js"></script>
   <script src="js/bootstrap.min.js"></script>
