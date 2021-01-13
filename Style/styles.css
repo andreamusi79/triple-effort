@@ -57,7 +57,8 @@ p.navbar-text {
 }
 #collapsable-nav {
 	margin: 180px 60px 0 0;
-	font-family:'Courier New', arial, sans-serif;
+/*	font-family:'Courier New', arial, sans-serif;*/
+  	font-family: 'cantarellregular', arial, sans-serif;
 	font-size: 17px;
 }
 .navbar-default .navbar-nav > .active > a {
@@ -137,13 +138,17 @@ img {
   #header-nav {
 	border: 1px solid #000000;
   }
+  div.navbar-brand {
+	font-size: 5em;
+    margin: 30px 0 30px;
+  }
   .navbar-collapse {
   	vertical-align: middle;
   }
   #collapsable-nav {
   	font-family: 'cantarellregular', arial, sans-serif;
   	margin: 0;
-  	padding-left: 140px;
+  	padding-left: 40px;
   	border-top: 1px solid #000000;
   }
   button.navbar-toggle.collapsed,  button.navbar-toggle {
