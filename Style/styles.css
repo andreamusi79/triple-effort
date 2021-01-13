@@ -32,11 +32,25 @@ body {
 	color: #32CD32;
 	font-family:'sole_survivorregular', arial, sans-serif;
 	font-size: 200%;
-	margin-left: 130px;
+/*	margin-left: 130px;*/
+}
+div.navbar-brand {
+	font-family:'sole_survivorregular', arial, sans-serif;
+	font-size: 6em;
+    margin: 30px 0 30px;
+}
+.logo-right {
+	color: #32CD32;
 }
 .logoColor {
 	color: #0000FF;
-	margin-top: 0;
+}
+p.navbar-text {
+	font-family:'Courier New', arial, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    width: 100%;
+    color: #000000 !important;
 }
 .navbar-brand a:hover {
 	text-decoration: none;
@@ -44,6 +58,7 @@ body {
 #collapsable-nav {
 	margin: 180px 60px 0 0;
 	font-family:'Courier New', arial, sans-serif;
+	font-size: 17px;
 }
 .navbar-default .navbar-nav > .active > a {
 	background-color: #F8F8FF;
@@ -51,7 +66,7 @@ body {
 	/*text-decoration: underline;*/
 }
 #nav-list {
-	margin-right: 100px;
+	margin-right: 0;
 }
 #nav-list li {
 	padding: 0 20px;
@@ -67,22 +82,17 @@ button.navbar-toggle {
 	color: #000000;
 	text-align: center;
 }
-h2 {
-    font-family:'Courier New', arial, sans-serif;
-    font-weight: bold;
-    font-size: 90%;
-    padding: 4px 0 0 0;
-    color: #000000;
-    margin: 0 0 0 130px;
+div#main-content.container {
+	margin-top: 100px;
 }
-h3 {
+h1, h2 {
     font-family: 'cantarellregular', arial, sans-serif;
-    font-size: 140%;
-    color: #2DB8CD;
+    font-size: 2em;
+/*    color: #2DB8CD;*/
+    color: #008080;
     padding: 10px 0px;
     margin: 40px 0px;
 }
-
 section {
 	font-family:'cantarellregular', arial, sans-serif;
 	font-size: 90%;
@@ -112,14 +122,11 @@ img {
 }
 }
 @media (min-width: 768px) and (max-width: 991px){
-  h3, section, .navbar-brand h1 a, h2 {
- 	margin-left: 20px;
-  }
   #nav-list {
 	margin-right: 80px;
   }
   #collapsable-nav {
-	margin: 180px 0 0 0;
+	margin: 180px 0 0px 0;
   }
   div.embed-responsive {
     width:100%;
@@ -133,21 +140,14 @@ img {
   .navbar-collapse {
   	vertical-align: middle;
   }
-  h3, section, .navbar-brand h1 a, h2 {
- 	margin-left: 0;
-  }
-  .navbar-header {
-	margin-bottom: 0px;
-	height: 180px;
-  }
   #collapsable-nav {
   	font-family: 'cantarellregular', arial, sans-serif;
-  	margin: 0px;
+  	margin: 0;
   	padding-left: 140px;
   	border-top: 1px solid #000000;
   }
-  h3 {
-  	margin: 20px 0;
+  button.navbar-toggle.collapsed,  button.navbar-toggle {
+  	margin: 10px 10px 10px 300px;
   }
   div.embed-responsive {
     width:100%;
