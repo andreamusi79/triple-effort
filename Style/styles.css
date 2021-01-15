@@ -71,7 +71,8 @@ div.navbar-brand {
     margin: 30px 0 30px;
 }
 .logo-right {
-	color: #DAA520;;
+/*	color: #DAA520;*/
+    color: #D2691E;
 }
 .logoColor {
 	color: #0000FF;
