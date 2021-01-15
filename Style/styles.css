@@ -3,12 +3,37 @@
     src: url('../Fonts/solesurvivor-webfont.woff2') format('woff2'),
          url('../Fonts/solesurvivor-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: normal;}
+    font-style: normal;
+}
 
 @font-face {
     font-family: 'cantarellregular';
     src: url('../Fonts/cantarell-regular-webfont.woff2') format('woff2'),
          url('../Fonts/cantarell-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Bungee Shade';
+    src: url(../Fonts/Bungee_Shade/BungeeShade-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Monoton';
+    src: url(../Fonts/Monoton/Monoton-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(../Fonts/Montserrat/Montserrat-Regular.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Roboto';
+    src: url(../Fonts/Roboto/Roboto-Regular.ttf) format("truetype");
     font-weight: normal;
     font-style: normal;
 }
