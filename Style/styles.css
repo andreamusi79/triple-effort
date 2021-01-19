@@ -84,21 +84,31 @@ p.navbar-text {
     width: 100%;
     color: #000000 !important;
 }
-.navbar-brand a:hover {
-	text-decoration: none;
-}
+/* restyling the navbar */
 #collapsable-nav {
 	margin: 180px 30px 0 0;
-/*	font-family:'Courier New', arial, sans-serif;*/
   	font-family: 'Montserrat', sans-serif;
 	font-size: 17px;
-	font-weight: bold;
 }
-.navbar-default .navbar-nav > .active > a {
+/* highlight behavior of the navbar */
+.navbar-default .navbar-nav .active a {
+	font-weight: bold;
 	background-color: #F8F8FF;
-	font-weight: bold;
-	/*text-decoration: underline;*/
+	text-shadow: 0.5px 0.5px #000000;
 }
+.navbar-default .navbar-nav .active a:focus, {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-default .navbar-nav li a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-default .navbar-nav li.active a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+
 #nav-list {
 	margin-right: 0;
 }
@@ -180,6 +190,7 @@ div.embed-responsive {
 img {
 	width: 100%;
 }
+/* restyling the footer */
 .navbar-nav.navbar-center {
     position: absolute;
     left: 50%;
@@ -190,6 +201,24 @@ img {
 /*    color: #008080;*/
     padding: 10px 0px;
     margin: 80px -200px 0px;
+}
+/* highlight behavior of the footer */
+.navbar-nav.navbar-center .active a {
+	font-weight: bold;
+	background-color: #F8F8FF;
+	text-shadow: 0.5px 0.5px #000000;
+}
+.navbar-nav.navbar-center .active a:focus, {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-nav.navbar-center li a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
+}
+.navbar-nav.navbar-center li.active a:hover {
+    background-color: #DFDFFF;
+    border-radius: 20px;
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
@@ -285,10 +314,11 @@ img {
   .navbar {
   	margin-bottom: 0;
   }
-  div.navbar-brand {
-	font-size: 2.2em;
-    margin: 80px 0 10px;
-  }
+ .navbar-header .navbar-brand {
+	font-size: 4em;
+    margin: 10px 0 80px;
+    line-height: 65px;
+   }
   .navbar-collapse {
   	vertical-align: middle;
   }
