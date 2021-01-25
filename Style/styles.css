@@ -190,6 +190,12 @@ div.embed-responsive {
 img {
 	width: 100%;
 }
+.well {
+	background-color: #DFDFFF;
+	text-align: center;
+	border: none;
+	font-family: 'Roboto', sans-serif;
+}
 /* restyling the footer */
 .navbar-nav.navbar-center {
     position: absolute;
