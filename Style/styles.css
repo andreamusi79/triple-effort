@@ -1,21 +1,4 @@
 @font-face {
-    font-family: 'sole_survivorregular';
-    src: url('../Fonts/solesurvivor-webfont.woff2') format('woff2'),
-         url('../Fonts/solesurvivor-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-
-@font-face {
-    font-family: 'cantarellregular';
-    src: url('../Fonts/cantarell-regular-webfont.woff2') format('woff2'),
-         url('../Fonts/cantarell-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-    font-display: swap;
-}
-@font-face {
     font-family: 'Bungee Shade';
     src: url(../Fonts/Bungee_Shade/BungeeShade-Regular.ttf) format("truetype");
     font-weight: normal;
@@ -195,6 +178,9 @@ img {
 	text-align: center;
 	border: none;
 	font-family: 'Roboto', sans-serif;
+	border-radius: 10px;
+/*	width: 80%;
+	margin-left: 70px;*/
 }
 /* restyling the footer */
 .navbar-nav.navbar-center {
