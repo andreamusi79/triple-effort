@@ -183,8 +183,7 @@ img {
 	border: none;
 	font-family: 'Roboto', sans-serif;
 	border-radius: 10px;
-/*	width: 80%;
-	margin-left: 70px;*/
+    margin-top: 20px; 
 }
 /* restyling the footer */
 .navbar-nav.navbar-center {
