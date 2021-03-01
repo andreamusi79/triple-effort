@@ -1,14 +1,9 @@
-$(document).ready(function () {
-    $('.nav-toggle').click(function () {
-        var collapse_content_selector = $(this).attr('href');
-        var toggle_switch = $(this);
-        $(collapse_content_selector).toggle(function () {
-            if ($(this).css('display') == 'none') {
-                toggle_switch.html('Lire plus...');
-            } else {
-                toggle_switch.html('Lire moins...');
-            }
-        });
+$('.collapse_link').click(function(){
+        var $this = $(this);
+        $this.toggleClass('collapse_link');
+        if($this.hasClass('collapse_link')){
+            $this.text('Lire plus...');         
+        } else {
+            $this.text('Lire moins...');
+        }
     });
-
-});
