@@ -74,9 +74,9 @@ p.navbar-text {
 .navbar-default .navbar-nav .active a {
 	font-weight: bold;
 	background-color: #F8F8FF;
-	text-shadow: 0.5px 0.5px #000000;
+	text-shadow: 0.4px 0.4px #000000;
 }
-.navbar-default .navbar-nav .active a:focus, {
+.navbar-default .navbar-nav .active a:focus {
     background-color: #DFDFFF;
     border-radius: 20px;
 }
@@ -89,6 +89,22 @@ p.navbar-text {
     border-radius: 20px;
 }
 
+element.style {
+}
+#nav-list a {
+    color: #000000;
+    text-align: center;
+    /* background-color: #F8F8FF; */
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover  {
+	background-color: #DFDFFF;
+	border-radius: 20px;
+}
+.dropdown-menu {
+	background-color: #F8F8FF;
+	border-radius: 7px;
+	border-color: #F8F8FF;
+}
 #nav-list {
 	margin-right: 0;
 }
@@ -105,6 +121,7 @@ button.navbar-toggle {
 #nav-list a {
 	color: #000000;
 	text-align: center;
+    /*background-color: #F8F8FF;*/
 }
 div#main-content.container {
 	margin-top: 100px;
@@ -145,13 +162,35 @@ div.jumbotron.jumbotron-billboard {
     margin: 140px 0px;
 }
 h1, h2 {
-/*    font-family: 'cantarellregular', arial, sans-serif;*/
   	font-family: 'Montserrat', sans-serif;
     font-size: 2em;
     color: #000000;
-/*    color: #008080;*/
     padding: 10px 0px;
     margin: 40px 0px;
+}
+h2 a, h1 a {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:link, h1 a:link {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:visited, h1 a:visited {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:hover, h1 a:hover {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:active, h1 a:active {
+    color: #000000;
+    text-decoration: none;
+}
+h2 a:focus, h1 a:focus {
+    color: #000000;
+    text-decoration: none;
 }
 section {
 /*	font-family:'cantarellregular', arial, sans-serif;*/
@@ -197,7 +236,7 @@ img {
 .navbar-nav.navbar-center .active a {
 	font-weight: bold;
 	background-color: #F8F8FF;
-	text-shadow: 0.5px 0.5px #000000;
+	text-shadow: 0.4px 0.4px #000000;
 }
 .navbar-nav.navbar-center .active a:focus, {
     background-color: #DFDFFF;
@@ -261,7 +300,7 @@ img {
 @media (min-width: 567px) and (max-width: 767px){
   #header-nav {
 	border: 1px solid #000000;
-	max-height: 200px;
+	/*max-height: 200px;*/
   }
   .navbar{
   	margin-bottom: 0;
